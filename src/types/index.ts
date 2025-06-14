@@ -6,3 +6,13 @@ export interface Story {
   isNew?: boolean;
   hasViewed?: boolean;
 }
+
+export interface IPost {
+  id: number;
+  name: string;
+  image: string;
+  listProFileView: string[];
+  contentTitle: string;
+  description: string;
+  listImage: string[];
+}
